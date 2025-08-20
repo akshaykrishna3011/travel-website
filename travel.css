@@ -19,6 +19,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 1;
 
 }
 
@@ -129,16 +130,17 @@ header a:hover {
     width: 100%;
     height: 100vh;
     background-color: black;
-    position: absolute;
+    position: relative;
+    padding: 50px 20px;
 
 }
 
 /*Serives section*/
 
 
-/* .sv{
+.sv{
     margin-top: 50px;
-} */
+} 
 .table {
     width: 100%;
     height: 50vh;
@@ -175,6 +177,7 @@ header a:hover {
 
 .icon:hover {
     color: white;
+    
 }
 
 /*Footer*/
@@ -185,7 +188,9 @@ footer {
     color: white;
     width: 100%;
     background-color: gray;
-    font-size: 10px;
+    font-size: 14px;
+    padding: 3px ;
+    position: relative;
 }
 
 @media (max-width: 768px) {
